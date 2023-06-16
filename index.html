@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="navbar-wrapper">
+          <nav class="navbar">
+            <ul>
+              <li>
+                <a href="#home">
+                  <img
+                    src="./images/logo/Primary_Xometry_Blue_CopyRight.svg"
+                    alt=""
+                    class="logo"
+                  />
+                </a>
+              </li>
+              <li><a href="">Capability</a></li>
+              <li><a href="">Resources</a></li>
+              <li><a href="">Customer Stories</a></li>
+              <li><a href="">Contact Us</a></li>
+
+              <li><a href="#sign-in">Sign In</a></li>
+              <li>
+                <div class="lan-change">
+                  <div class="lan-switch-box">
+                    <div class="btn" id="btn"></div>
+                    <button class="toggle-btn" onclick="leftClick()">EN</button>
+                    <button class="toggle-btn" onclick="rightClick()">
+                      CN
+                    </button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <img
+            src="./images/logo/logo-transparent.png"
+            class="logo-menu"
+            alt=""
+          />
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="top-col">
+          <div
+            class="card active"
+            style="
+              background-image: url('./images/ad/Xometry_Office_William_Krueger.jpg');
+            "
+          >
+            <div class="content">
+              <h3>Manufacturing on Demand</h3>
+              <div class="info">
+                <p>
+                  With over 10,000 manufacturers in China and across the globe,
+                  our network has the capacity you need for prototyping and
+                  production.
+                </p>
+                <div class="check-container">
+                  <div class="safety-box check-box">
+                    <!-- <i class="bx bxs-user-check check-box"></i>
+                     -->
+                    <i class="bx bxs-lock-alt"></i>
+                    <h4>Secure and confidential.</h4>
+                  </div>
+                  <div class="calender-box check-box">
+                    <i class="bx bxs-calendar-check"></i>
+                    <h4>Parts in as Fast as 1 Days</h4>
+                  </div>
+                  <div class="QA-certified check-box">
+                    <i class="bx bxs-check-shield"></i>
+                    <h4>Strong QA Certified</h4>
+                  </div>
+
+                  <a href="#" class="learn-more-btn">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card"
+            style="background-image: url('./images/ad/hyperShock.jpg')"
+          >
+            <div class="content">
+              <h3>Our Products</h3>
+              <div class="info">
+                <p>
+                  With over 10,000 manufacturers in China and across the globe,
+                  our network has the capacity you need for prototyping and
+                  production.
+                </p>
+                <div class="check-container">
+                  <div class="safety-box check-box">
+                    <!-- <i class="bx bxs-user-check check-box"></i>
+                     -->
+                    <i class="bx bxs-lock-alt"></i>
+                    <h4>Secure and confidential.</h4>
+                  </div>
+                  <div class="calender-box check-box">
+                    <i class="bx bxs-calendar-check"></i>
+                    <h4>Parts in as Fast as 1 Days</h4>
+                  </div>
+                  <div class="QA-certified check-box">
+                    <i class="bx bxs-check-shield"></i>
+                    <h4>Strong QA Certified</h4>
+                  </div>
+
+                  <a href="#" class="learn-more-btn">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card"
+            style="
+              background-image: url('./images/ad/RandyAltschuler-Xometry-product.jpg');
+            "
+          >
+            <div class="content">
+              <h3>Xometry CEO</h3>
+              <div class="info">
+                <p>
+                  With over 10,000 manufacturers in China and across the globe,
+                  our network has the capacity you need for prototyping and
+                  production.
+                </p>
+                <div class="check-container">
+                  <div class="safety-box check-box">
+                    <!-- <i class="bx bxs-user-check check-box"></i>
+                     -->
+                    <i class="bx bxs-lock-alt"></i>
+                    <h4>Secure and confidential.</h4>
+                  </div>
+                  <div class="calender-box check-box">
+                    <i class="bx bxs-calendar-check"></i>
+                    <h4>Parts in as Fast as 1 Days</h4>
+                  </div>
+                  <div class="QA-certified check-box">
+                    <i class="bx bxs-check-shield"></i>
+                    <h4>Strong QA Certified</h4>
+                  </div>
+
+                  <a href="#" class="learn-more-btn">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card"
+            style="background-image: url('./images/ad/xometry-ipo.jpg')"
+          >
+            <div class="content">
+              <h3>Xometry IPO</h3>
+              <div class="info">
+                <p>
+                  With over 10,000 manufacturers in China and across the globe,
+                  our network has the capacity you need for prototyping and
+                  production.
+                </p>
+                <div class="check-container">
+                  <div class="safety-box check-box">
+                    <!-- <i class="bx bxs-user-check check-box"></i>
+                     -->
+                    <i class="bx bxs-lock-alt"></i>
+                    <h4>Secure and confidential.</h4>
+                  </div>
+                  <div class="calender-box check-box">
+                    <i class="bx bxs-calendar-check"></i>
+                    <h4>Parts in as Fast as 1 Days</h4>
+                  </div>
+                  <div class="QA-certified check-box">
+                    <i class="bx bxs-check-shield"></i>
+                    <h4>Strong QA Certified</h4>
+                  </div>
+
+                  <a href="#" class="learn-more-btn">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="card"
+            style="background-image: url('./images/ad/xometry-china.jpg')"
+          >
+            <div class="content">
+              <h3>Xometry Services</h3>
+              <div class="info">
+                <p>
+                  With over 10,000 manufacturers in China and across the globe,
+                  our network has the capacity you need for prototyping and
+                  production.
+                </p>
+                <div class="check-container">
+                  <div class="safety-box check-box">
+                    <!-- <i class="bx bxs-user-check check-box"></i>
+                     -->
+                    <i class="bx bxs-lock-alt"></i>
+                    <h4>Secure and confidential.</h4>
+                  </div>
+                  <div class="calender-box check-box">
+                    <i class="bx bxs-calendar-check"></i>
+                    <h4>Parts in as Fast as 1 Days</h4>
+                  </div>
+                  <div class="QA-certified check-box">
+                    <i class="bx bxs-check-shield"></i>
+                    <h4>Strong QA Certified</h4>
+                  </div>
+
+                  <a href="#" class="learn-more-btn">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-col">
+          <div class="capability">
+            <div class="cmc-machining card-1">
+              <img src="./images/hero-icons/3d-printing-sls-icon.svg" alt="" />
+            </div>
+            <div class="3d-printing card-1">
+              <img
+                src="./images/hero-icons/61d70e3c11d456d4c6c1d952_die-casting-icon.svg"
+                alt=""
+              />
+            </div>
+            <div class="sheet-metal card-1">
+              <img src="./images/hero-icons/cnc-machining-icon.svg" alt="" />
+            </div>
+            <div class="injection-moulding card-1">
+              <img
+                src="./images/hero-icons/injection-moulding-icon.svg"
+                alt=""
+              />
+            </div>
+            <div class="die-casting card-1">
+              <img
+                src="./images/hero-icons/sheet-metal-bending-icon.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="trust-brands">
+            <div class="box-2">
+              <img src="./images/trust-brands/BMW-logo.svg" alt="" />
+            </div>
+
+            <div class="box-2">
+              <img
+                src="./images/trust-brands/bosch-logo.svg"
+                class="bosch-logo"
+                alt=""
+              />
+            </div>
+
+            <div class="box-2">
+              <img src="./images/trust-brands/Dell-logo.svg" alt="" />
+            </div>
+
+            <div class="box-2">
+              <img src="./images/trust-brands/ge-color-1.svg" alt="" />
+            </div>
+
+            <div class="box-2">
+              <img src="./images/trust-brands/nasa-color.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-customized">
+        <h1>Turbocharge the way you make custom parts</h1>
+        <div class="content">
+          <div class="network-capacity">
+            <img
+              src="./images/intro-customized/massivenetworkcapacity1-01-1.svg"
+              alt=""
+            />
+            <h3>Massive Network Capacity</h3>
+            <p>
+              Instantly access the production capacity of over 10,000
+              manufacturers with wide-ranging capabilities and certifications
+              across 30 countries worldwide. From your desktop. Strict NDA with
+              our network to protect privac
+            </p>
+          </div>
+          <div class="quoting-engine">
+            <img
+              src="./images/intro-customized/instantquotingengine1-01-1.svg"
+              alt=""
+            />
+            <h3>Instant Quoting Engine</h3>
+            <p>
+              Get DFM feedback, lead times, and pricing in a matter of clicks,
+              not days. Xometry IQ℠ puts Data Science to work for you so you can
+              easily choose the optimal price/lead time option for your project.
+              Compatible with STEP, Mesh, Parasolid, and ACIS files.
+            </p>
+          </div>
+          <div class="guaranteed-quality">
+            <img
+              src="./images/intro-customized/massivenetworkcapacity1-01-1.svg"
+              alt=""
+            />
+            <h3>Status Updates and Guranteed Quality</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+              incidunt deleniti, repellat error quam ratione voluptates ea
+              perspiciatis atque reprehenderit!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-manufacturing">
+        <h1>
+          Precision manufacturing applications <br />
+          for every industry
+        </h1>
+        <div class="content">
+          <div class="aero-def card-3">
+            <img
+              src="./images/intro-manufacturing/icon-industries-education-graduation-cap.svg"
+              alt=""
+            />
+            <p>Aerospace & Defense</p>
+          </div>
+          <div class="edu card-3">
+            <img
+              src="./images/intro-manufacturing/icon-industries-education-graduation-cap.svg"
+              alt=""
+            />
+            <p>Education</p>
+          </div>
+          <div class="industry card-3">
+            <img
+              src="./images/intro-manufacturing/icon-industries-waste-factory.svg"
+              alt=""
+            />
+            <p>Industrial</p>
+          </div>
+
+          <div class="automotive card-3">
+            <img
+              src="./images/intro-manufacturing/icon-industries-transportation-car.svg"
+              alt=""
+            />
+            <p>automotive</p>
+          </div>
+          <div class="Electronics card-3">
+            <img
+              src="./images/intro-manufacturing/icon-industries-waste-factory.svg"
+              alt=""
+            />
+            <p>Electronics</p>
+          </div>
+          <div class="medi-dent card-3">
+            <img
+              src="./images/intro-manufacturing/icon-industries-medical-needle.svg"
+              alt=""
+            />
+            <p>Medical & Dental</p>
+          </div>
+          <div class="consumer card-3">
+            <img
+              src="./images/intro-manufacturing/icon-industries-phone-1.svg"
+              alt=""
+            />
+            <p>Consumer Products</p>
+          </div>
+          <div class="energy card-3">
+            <img
+              src="./images/intro-manufacturing/icon-industries-waste-lightbulb.svg"
+              alt=""
+            />
+            <p>Energy</p>
+          </div>
+          <div class="rob-mach card-3">
+            <img
+              src="./images/intro-manufacturing/icon-industries-robotics-factory.svg"
+              alt=""
+            />
+            <p>Robotics & Machine-Building</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-order">
+        <h1>How to Order?</h1>
+        <div class="content">
+          <div class="upload-box card-5">
+            <img src="./images/intro-order/vupload-cad-01.svg" alt="" />
+
+            <div class="info">
+              <p class="number">1</p>
+              <div class="info-text">
+                <h3>Upload your CAD files</h3>
+                <p>
+                  Multiple designs for different parts can be imported at the
+                  same time to produce a single quote. In less than a minute, a
+                  detailed cost estimation appears on the screen.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="process-box card-5">
+            <img src="./images/intro-order/vsetupparameters-01.svg" alt="" />
+
+            <div class="info">
+              <p class="number">2</p>
+              <div class="info-text">
+                <h3>Choose the process</h3>
+                <p>
+                  First, select the manufacturing process you require. You can
+                  then choose from over 70 materials, both metals and plastics,
+                  and from a wide range of finishes and certifications.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="online-order-box card-5">
+            <img src="./images/intro-order/vlists-01.svg" alt="" />
+
+            <div class="info">
+              <p class="number">3</p>
+              <div class="info-text">
+                <h3>Order your parts online</h3>
+                <p>
+                  Once you have selected the required options, all you need to
+                  do is confirm the order and pay for it on the secure payment
+                  platform. Your design will be analysed by engineers.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="upload-box card-5">
+            <img
+              src="./images/intro-order/vNEWsetup-parameters-01.svg"
+              alt=""
+            />
+
+            <div class="info">
+              <p class="number">4</p>
+              <div class="info-text">
+                <h3>Receive your parts</h3>
+                <p>
+                  Within a short amount of time, you will receive the parts you
+                  ordered directly to your shipping address. You can track your
+                  package at any time in your personal account.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-video">
+        <h1>
+          Order custom parts in a few clicks with the Xometry Instant Quoting
+          Engine℠
+        </h1>
+        <video controls>
+          <source
+            src="./videos/HyperShock-Chooses-Xometry.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </section>
+
+      <div class="order-footer-container">
+        <section class="order-online">
+          <h1>
+            Ready to Order <br />
+            Your Parts Online?
+          </h1>
+          <div class="left-col">
+            <div class="context">
+              <p>Customers <span>30,000+</span></p>
+              <p>Parts Quoted <span>1 Million+</span></p>
+            </div>
+
+            <a href="get-quo-btn" class="get-quo-btn">Get Quote</a>
+          </div>
+          <!-- <div class="right-col"></div> -->
+        </section>
+        <footer>
+          <div class="top-col">
+            <div class="link-box">
+              <h4>Quick Link</h4>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="">Customer stories</a>
+                  </li>
+                  <li>
+                    <a href="">Materials</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="resource-box">
+              <!-- <a href=""></a> -->
+              <h4>Resources</h4>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="">Xometry stories </a>
+                  </li>
+                  <li>
+                    <a href="">Learn 3D Print</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="xometry-oversea">
+              <!-- <h4>All Xometry</h4> -->
+              <a href="#home">
+                <img src="./images/logo/logo-transparent.png" alt="" />
+              </a>
+              <p><a href="">Europe</a></p>
+              <p><a href="">American</a></p>
+            </div>
+            <div class="contacts">
+              <h4>Contacts</h4>
+              <p>
+                <b>Address:</b> Room 5208, Building 5 <br />
+                No. 735 Liyang Rd <br />
+                Hongkou Dist. <br />
+                Shanghai, China
+              </p>
+              <p><b>Phone:</b> 86 21 56085857</p>
+              <p>
+                <b>Email: </b>
+
+                info@xometry.asia
+              </p>
+            </div>
+          </div>
+          <div class="bottom-col">
+            <div class="copy-right">©2023, Xometry Asia</div>
+            <div class="term-condi"><a href="#">Terms and Conditions</a></div>
+            <div class="prot-poli"><a href="#">Data Protection Policy</a></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
