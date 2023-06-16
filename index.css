@@ -641,9 +641,9 @@ footer .bottom-col {
     font-size: 40px;
   }
 
-  .hero .bottom-col .capability .card-1 {
+  /* .hero .bottom-col .capability .card-1 {
     width: 40%;
-  }
+  } */
 }
 
 @media (max-width: 556px) {
