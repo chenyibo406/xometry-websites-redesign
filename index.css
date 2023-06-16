@@ -665,6 +665,10 @@ footer .bottom-col {
   .intro-manufacturing .content {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+  footer .top-col {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }
 
 /* @media (max-width: 480px) {
