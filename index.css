@@ -201,6 +201,7 @@ header .logo-menu {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
   background: rgba(85, 115, 214, 0.473);
+  width: 100%;
   padding: 30px;
 }
 
@@ -316,7 +317,7 @@ header .logo-menu {
 }
 
 .intro-customized .content img {
-  width: 300px;
+  max-width: 300px;
 }
 
 .intro-customized .content {
@@ -446,6 +447,8 @@ header .logo-menu {
 .order-footer-container {
   background-color: #e1e1e1;
   height: 100%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 /* ---------------------- ORDER-ONLINE ---------------------- */
@@ -637,8 +640,12 @@ footer .bottom-col {
     padding-right: 0;
   }
 
-  .intro-video h1 {
+  /* .intro-video h1 {
     font-size: 40px;
+  } */
+
+  :root {
+    --section-title: 40px;
   }
 
   /* .hero .bottom-col .capability .card-1 {
